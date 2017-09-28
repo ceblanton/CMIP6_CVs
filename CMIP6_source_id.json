@@ -1525,6 +1525,7 @@
         },
         "GFDL-AM4":{
             "activity_participation":[
+                "CFMIP",
                 "CMIP"
             ],
             "cohort":[
@@ -1553,8 +1554,8 @@
                     "nominal_resolution":"100 km"
                 },
                 "landIce":{
-                    "description":"GFDL-LM4.0",
-                    "nominal_resolution":"100 km"
+                    "description":"none",
+                    "nominal_resolution":"none"
                 },
                 "ocean":{
                     "description":"none",
@@ -1574,8 +1575,13 @@
         },
         "GFDL-CM4":{
             "activity_participation":[
+                "CFMIP",
                 "CMIP",
-                "OMIP"
+                "DAMIP",
+                "GMMIP",
+                "OMIP",
+                "RFMIP"
+                "ScenarioMIP"
             ],
             "cohort":[
                 "Registered"
@@ -1603,8 +1609,8 @@
                     "nominal_resolution":"100 km"
                 },
                 "landIce":{
-                    "description":"GFDL-LM4.0",
-                    "nominal_resolution":"100 km"
+                    "description":"none",
+                    "nominal_resolution":"none"
                 },
                 "ocean":{
                     "description":"GFDL-MOM6 (tripolar - nominal 0.25 deg; 1440 x 720 longitude/latitude; 75 levels; top grid cell 0-2 m)",
@@ -1622,18 +1628,63 @@
             "release_year":"2017",
             "source_id":"GFDL-CM4"
         },
+        "GFDL-ESM2M":{
+            "activity_participation":[
+                "CMIP",
+                "FAFMIP",
+            ],
+            "cohort":[
+                "Registered"
+            ],
+            "institution_id":[
+                "NOAA-GFDL"
+            ],
+            "label":"GFDL-ESM2M",
+            "label_extended":"GFDL-ESM2M",
+            "model_component":{
+                "aerosol":{
+                    "description":"???",
+                    "nominal_resolution":"???"
+                },
+                "atmos":{
+                    "description":"GFDL-AM2p13",
+                    "nominal_resolution":"???"
+                },
+                "atmosChem":{
+                    "description":"???",
+                    "nominal_resolution":"???"
+                },
+                "land":{
+                    "description":"GFDL-LM3",
+                    "nominal_resolution":"???"
+                },
+                "landIce":{
+                    "description":"none",
+                    "nominal_resolution":"none"
+                },
+                "ocean":{
+                    "description":"GFDL-MOM4p1",
+                    "nominal_resolution":"???"
+                },
+                "ocnBgchem":{
+                    "description":"TOPAZ version 2",
+                    "nominal_resolution":"???"
+                },
+                "seaIce":{
+                    "description":"SIS",
+                    "nominal_resolution":"???"
+                }
+            },
+            "release_year":"2012",
+            "source_id":"GFDL-ESM2M"
+        },
         "GFDL-ESM4":{
             "activity_participation":[
                 "AerChemMIP",
                 "C4MIP",
-                "CFMIP",
                 "CMIP",
-                "DAMIP",
                 "DynVarMIP",
-                "GMMIP",
                 "LUMIP",
-                "OMIP",
-                "RFMIP",
                 "ScenarioMIP"
             ],
             "cohort":[
@@ -1662,8 +1713,8 @@
                     "nominal_resolution":"100 km"
                 },
                 "landIce":{
-                    "description":"GFDL-LM4.1",
-                    "nominal_resolution":"100 km"
+                    "description":"none",
+                    "nominal_resolution":"none"
                 },
                 "ocean":{
                     "description":"GFDL-MOM6 (tripolar - nominal 0.5 deg; 720 x 360 longitude/latitude; 75 levels; top grid cell 0-2 m)",
